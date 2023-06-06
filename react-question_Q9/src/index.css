@@ -1,0 +1,14 @@
+/* index.css */
+body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.dark {
+    background-color: #1a202c;
+    color: #f7fafc;
+}
+
+.dark body {
+    background-color: #1a202c !important;
+    color: #f7fafc !important;
+}
